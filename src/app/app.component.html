@@ -1,0 +1,21 @@
+
+<table>
+  <tr>
+    <th>
+       Nombre
+    </th>
+    <th>
+      Email
+      </th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>
+      {{user.nombre}}
+    </td>
+    <td>
+      {{user.email}}
+    </td>
+  </tr>
+</table>
+
+<router-outlet></router-outlet>
